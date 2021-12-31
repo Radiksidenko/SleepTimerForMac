@@ -10,6 +10,8 @@
 		7C481F38277F18AE00F5FFBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C481F37277F18AE00F5FFBF /* AppDelegate.swift */; };
 		7C481F3A277F18AF00F5FFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C481F39277F18AF00F5FFBF /* Assets.xcassets */; };
 		7C481F3D277F18AF00F5FFBF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C481F3B277F18AF00F5FFBF /* MainMenu.xib */; };
+		7C481F45277F19C500F5FFBF /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C481F44277F19C500F5FFBF /* StatusMenuController.swift */; };
+		7C481F47277F1DDA00F5FFBF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C481F46277F1DDA00F5FFBF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		7C481F39277F18AF00F5FFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C481F3C277F18AF00F5FFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7C481F3E277F18AF00F5FFBF /* SleepTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SleepTimer.entitlements; sourceTree = "<group>"; };
+		7C481F44277F19C500F5FFBF /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		7C481F46277F1DDA00F5FFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +54,12 @@
 		7C481F36277F18AE00F5FFBF /* SleepTimer */ = {
 			isa = PBXGroup;
 			children = (
+				7C481F46277F1DDA00F5FFBF /* Info.plist */,
 				7C481F37277F18AE00F5FFBF /* AppDelegate.swift */,
 				7C481F39277F18AF00F5FFBF /* Assets.xcassets */,
 				7C481F3B277F18AF00F5FFBF /* MainMenu.xib */,
 				7C481F3E277F18AF00F5FFBF /* SleepTimer.entitlements */,
+				7C481F44277F19C500F5FFBF /* StatusMenuController.swift */,
 			);
 			path = SleepTimer;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 			files = (
 				7C481F3A277F18AF00F5FFBF /* Assets.xcassets in Resources */,
 				7C481F3D277F18AF00F5FFBF /* MainMenu.xib in Resources */,
+				7C481F47277F1DDA00F5FFBF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C481F45277F19C500F5FFBF /* StatusMenuController.swift in Sources */,
 				7C481F38277F18AE00F5FFBF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +280,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FP2M4U8R98;
 				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SleepTimer/Info.Plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -299,7 +308,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FP2M4U8R98;
 				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SleepTimer/Info.Plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
